@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  - function isEmptyObject(obj) {
+  -      var name;
+  -      for (name in obj) {
+  -        return false;
+  -      }
+  -      return true;
+  -    }
+  h1= title
+  - if (isEmptyObject(errors) == false)
+    p.errorMessage= "The following errors occurred:"
+    ul  
+      - each error in errors
+        li= error.msg
+  form( method="post")
+    div
+      div
+        span.label First Name :
+        input(type="text", name="first name", id="first name")
+      div
+        span.label Last Name :
+        input(type="text", name="last name", id="last name")
+      div
+        span.label Email :
+        input(type="text", name="email", id="email")
+      div
+        input(type="submit", value="Submit")
+  p #{message}  
+
+    
+  
