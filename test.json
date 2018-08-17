@@ -1,12 +1,316 @@
-[
-      ["Nail polish", 12814, 3054, 4376, 4229],
-      ["Eyebrow pencil", 13012, 5067, 3987, 3932],
-      ["Rouge", 11624, 7004, 3574, 5221],
-      ["Lipstick", 8814, 9054, 4376, 9256],
-      ["Eyeshadows", 12998, 12043, 4572, 3308],
-      ["Eyeliner", 12321, 15067, 3417, 5432],
-      ["Foundation", 10342, 10119, 5231, 13701],
-      ["Lip gloss", 22998, 12043, 4572, 4008],
-      ["Mascara", 11261, 10419, 6134, 18712],
-      ["Powder", 10261, 14419, 5134, 25712]
-    ]
+{
+  "chart": {
+    "enabled": true,
+    "title": {
+      "enabled": true,
+      "text": "Company Profit Dynamic in Regions by Year",
+      "margin": {
+        "bottom": 20
+      }
+    },
+    "tooltip": {
+      "enabled": true,
+      "valuePrefix": "$",
+      "displayMode": "union"
+    },
+    "credits": {
+      "enabled": false
+    },
+    "defaultSeriesType": "column",
+    "dataArea": {
+      "enabled": true
+    },
+    "xScale": 0,
+    "yScale": 1,
+    "series": [
+      {
+        "enabled": true,
+        "seriesType": "column",
+        "name": "Florida",
+        "selected": {
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          }
+        },
+        "data": [
+          {
+            "x": "Nail polish",
+            "value": 12814
+          },
+          {
+            "x": "Eyebrow pencil",
+            "value": 13012
+          },
+          {
+            "x": "Rouge",
+            "value": 11624
+          },
+          {
+            "x": "Lipstick",
+            "value": 8814
+          },
+          {
+            "x": "Eyeshadows",
+            "value": 12998
+          },
+          {
+            "x": "Eyeliner",
+            "value": 12321
+          },
+          {
+            "x": "Foundation",
+            "value": 10342
+          },
+          {
+            "x": "Lip gloss",
+            "value": 22998
+          },
+          {
+            "x": "Mascara",
+            "value": 11261
+          },
+          {
+            "x": "Powder",
+            "value": 10261
+          }
+        ],
+        "xScale": 0,
+        "yScale": 1
+      },
+      {
+        "enabled": true,
+        "seriesType": "column",
+        "name": "Texas",
+        "selected": {
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          }
+        },
+        "data": [
+          {
+            "x": "Nail polish",
+            "value": 3054
+          },
+          {
+            "x": "Eyebrow pencil",
+            "value": 5067
+          },
+          {
+            "x": "Rouge",
+            "value": 7004
+          },
+          {
+            "x": "Lipstick",
+            "value": 9054
+          },
+          {
+            "x": "Eyeshadows",
+            "value": 12043
+          },
+          {
+            "x": "Eyeliner",
+            "value": 15067
+          },
+          {
+            "x": "Foundation",
+            "value": 10119
+          },
+          {
+            "x": "Lip gloss",
+            "value": 12043
+          },
+          {
+            "x": "Mascara",
+            "value": 10419
+          },
+          {
+            "x": "Powder",
+            "value": 14419
+          }
+        ],
+        "xScale": 0,
+        "yScale": 1
+      },
+      {
+        "enabled": true,
+        "seriesType": "column",
+        "name": "Arizona",
+        "selected": {
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          }
+        },
+        "data": [
+          {
+            "x": "Nail polish",
+            "value": 4376
+          },
+          {
+            "x": "Eyebrow pencil",
+            "value": 3987
+          },
+          {
+            "x": "Rouge",
+            "value": 3574
+          },
+          {
+            "x": "Lipstick",
+            "value": 4376
+          },
+          {
+            "x": "Eyeshadows",
+            "value": 4572
+          },
+          {
+            "x": "Eyeliner",
+            "value": 3417
+          },
+          {
+            "x": "Foundation",
+            "value": 5231
+          },
+          {
+            "x": "Lip gloss",
+            "value": 4572
+          },
+          {
+            "x": "Mascara",
+            "value": 6134
+          },
+          {
+            "x": "Powder",
+            "value": 5134
+          }
+        ],
+        "xScale": 0,
+        "yScale": 1
+      },
+      {
+        "enabled": true,
+        "seriesType": "column",
+        "name": "Nevada",
+        "selected": {
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          }
+        },
+        "data": [
+          {
+            "x": "Nail polish",
+            "value": 4229
+          },
+          {
+            "x": "Eyebrow pencil",
+            "value": 3932
+          },
+          {
+            "x": "Rouge",
+            "value": 5221
+          },
+          {
+            "x": "Lipstick",
+            "value": 9256
+          },
+          {
+            "x": "Eyeshadows",
+            "value": 3308
+          },
+          {
+            "x": "Eyeliner",
+            "value": 5432
+          },
+          {
+            "x": "Foundation",
+            "value": 13701
+          },
+          {
+            "x": "Lip gloss",
+            "value": 4008
+          },
+          {
+            "x": "Mascara",
+            "value": 18712
+          },
+          {
+            "x": "Powder",
+            "value": 25712
+          }
+        ],
+        "xScale": 0,
+        "yScale": 1
+      }
+    ],
+    "yAxis": {
+      "enabled": false
+    },
+    "xGrids": [
+      {
+        "palette": {
+          "type": "distinct",
+          "items": [
+            "none"
+          ]
+        },
+        "zIndex": 11,
+        "enabled": true,
+        "stroke": "#CECECE",
+        "drawFirstLine": true,
+        "drawLastLine": true,
+        "isMinor": false,
+        "scale": 1
+      }
+    ],
+    "yGrids": [
+      {
+        "palette": {
+          "type": "distinct",
+          "items": [
+            "none"
+          ]
+        },
+        "zIndex": 11.001,
+        "enabled": true,
+        "stroke": "#CECECE",
+        "drawFirstLine": true,
+        "drawLastLine": true,
+        "isMinor": false,
+        "scale": 1
+      }
+    ],
+    "sortPointsByX": true,
+    "scales": [
+      {
+        "type": "ordinal",
+        "ticks": {
+          "maxCount": 100
+        }
+      },
+      {
+        "stackMode": "value",
+        "comparisonMode": "none"
+      }
+    ],
+    "type": "polar"
+  }
+}
+                
