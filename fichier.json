@@ -1,4 +1,7 @@
-[
+chartData = {
+    title: "Company Profit Dynamic in Regions by Year",
+    header: ["#", "Florida", "Texas", "Arizona", "Nevada"],
+rows:[
       ["Nail polish", 12814, 3054, 4376, 4229],
       ["Eyebrow pencil", 13012, 5067, 3987, 3932],
       ["Rouge", 11624, 7004, 3574, 5221],
@@ -10,3 +13,4 @@
       ["Mascara", 11261, 10419, 6134, 18712],
       ["Powder", 10261, 14419, 5134, 25712]
     ]
+}
